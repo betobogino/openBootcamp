@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 400px;
+    display: flex;
+}
+.main-first,
+.main-second,
+.main-third,
+.main-fourth {
+    width: 25%;
+}
+.main-first,
+.main-second,
+.main-third {
+    border-right: 1px solid black;
+}
